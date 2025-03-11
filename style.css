@@ -8956,3 +8956,14 @@ img.destination {
   width:15px !important;
   height:15px !important;
 }
+@media (max-width: 768px) {
+  .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: 'prev';
+    font-size: 25px;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+  content: 'next';
+  font-size: 25px;
+
+}
+}
