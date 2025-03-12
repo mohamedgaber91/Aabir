@@ -8925,29 +8925,20 @@ img.destination {
 
 .gallery-img {
   display: flex;
-  justify-content: center; /* توسيط الصورة أفقياً */
-  align-items: center; /* توسيط الصورة عمودياً */
+  justify-content: center; 
+  align-items: center;
 }
 
 .gallery-img img {
-  width: 60%; /* تعديل العرض حسب الحاجة (مثلاً 60% من حجم السلايدر) */
-  max-width: 500px; /* أقصى عرض للصورة */
+  width: 60%;
+  max-width: 500px; 
   height: auto;
   border-radius: 10px;
   display: block;
-  margin: 0 auto; /* يضمن التوسيط داخل العنصر */
+  margin: 0 auto; 
   margin-bottom:60px;
 }
 
-/* .gallery-section {
-  padding: 50px 0;
-}
-.gallery-img img {
-  width: 300px;
-  height: auto;
-  margin: auto;
-  border-radius: 10px;
-} */
 .swiper-pagination-bullet-active {
   background:var(--main-bg) !important;
 }
