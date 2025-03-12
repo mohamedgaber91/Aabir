@@ -2369,15 +2369,17 @@ input[type=submit]:focus {
   overflow: hidden;
 }
 .home-slider .home-banner-items .banner-content-wrap {
-  padding-bottom: 230px;
-  padding-top: 230px;
+  padding-bottom: 125px;
+  padding-top: 288px;
 }
 .home-slider .banner-content {
   margin-left: auto;
   margin-right: auto;
   max-width: 75%;
 }
-
+section.destination-section {
+  margin-top: 55px;
+}
 .banner-inner-wrap {
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -2451,6 +2453,11 @@ input[type=submit]:focus {
   .home-banner-items .banner-content .banner-title {
     font-size: 32px;
   }
+  .home-slider .home-banner-items .banner-content-wrap {
+    padding-bottom: 22px;
+    
+}
+
 }
 
 .home-banner-section {
